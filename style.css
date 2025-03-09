@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    padding: 20px 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.banner{
+    background-image: url(images/coffeehouse2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.banner-header h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 5rem;
+    font-family: cursive;
+}
+
+.banner-header1{
+    align-items: end;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    font-size: 1.4rem;
+}
+
+.banner-header1 p{
+    color: brown;
+}
+
+.about{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    max-width: 100%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20px;
+}
+
+.about-header{
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.about-header h2{
+    font-size:2rem;
+}
+
+.about-end{
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+.menu{
+    margin-top: 50px;
+    text-align: center;
+    justify-content: grid;
+    align-items: center;
+}
+
+.menu-header{
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+}
+
+.menu-a{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    padding: 10px 20px;
+}
+
+.menu-a a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.menus-borders{
+    border: 2px solid black;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.menu-content{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: start;
+    margin-left: 20px;
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+.active{
+    background-color: #ccc;
+    padding: 5px 100px;
+}
+
+.menu img{
+    margin-top: 20px;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+}
+
+.contact{
+    display: grid;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    line-height: 1.5;
+}
+
+.header-contact h2{
+    font-size: 2rem;
+}
+
+.contact img{
+    margin-top: 20px;
+}
+
+.footer{
+    text-align: center;
+    background-color: #fff5f5ff;
+    padding: 15px 20px;
+}
+
+.contact-form{
+    display: grid;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.btn{
+    width: 25%;
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    margin-left: 20px;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px){
+    img{
+        width: 100%;
+    }
+
+    .nav{
+        margin-top: 0px;
+    }
+
+    .menus-borders{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
